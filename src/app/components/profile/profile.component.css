@@ -1,0 +1,50 @@
+.img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.card {
+  max-width: 800px;
+  background-color: #133a46;
+  opacity: 90%;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(113, 124, 165, 0.05), 0 15px 40px rgb(0 0 0 / 10%);
+  display: flex;
+  padding: 3rem;
+  margin: 0 1.5rem;
+  color: rgb(249, 248, 248);
+  align-self: center;
+}
+
+h3 {
+  padding-left: 5%;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+.repo-container {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero-card {
+  width:180px;
+  background-color:#133a46;
+  font-size: 18px;
+  margin: 15px;
+  text-align: left;
+  color: azure;
+  padding-top: 5%;
+  /* padding: 15px 20px; */
+  border-radius: 4px; 
+}
+ul{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+}
