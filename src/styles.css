@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: url("src/assets/background.webp.avif");
+    opacity:100%;
+    background-size: cover;
+    padding-left:8%;
+    padding-right:8%;
+}
+h1{
+    text-align: center;
+    color: rgb(234, 223, 223);
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: monospace;
+}
+p{
+    color: rgb(185, 250, 129);
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    font-family: monospace;
+}
