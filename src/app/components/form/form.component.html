@@ -1,0 +1,20 @@
+<form (ngSubmit)="findUser(userName)">
+  <div class="form-group">
+    <input
+      required
+      [(ngModel)]="userName"
+      name="userName"
+      #username="ngModel"
+      type="text"
+      class="form-control"
+    />
+    <div class="alert alert-danger" *ngIf="username.touched && !username.valid">
+      User Name is Required
+    </div>
+  </div>
+  <button [disabled]="username.invalid" class="btn btn-primary" type="submit">
+    Submit User
+  </button>
+</form>
+
+
