@@ -1,0 +1,27 @@
+<div class="card" *ngIf="user">
+  <div>
+    <img src="{{ user.avatar_url }}" />
+  </div>
+  <div class="user-info">
+    <h2>&nbsp;&nbsp; {{ user.name }}</h2>
+    <h3>{{ user.bio }}</h3>
+    <ul>
+      <li>{{ user.followers }} &nbsp;&nbsp;<strong> Followers</strong></li>
+      <li>{{ user.following }}&nbsp;&nbsp;<strong>Following</strong></li>
+      <li>{{ user.public_repos }}&nbsp;&nbsp;<strong>Public Repos</strong></li>
+      <li><strong>Created at: </strong>{{ user.created_at}}&nbsp;&nbsp;</li>
+    </ul>
+  </div>
+</div>
+<div class="repo-container">
+  <div *ngFor="let repo of repos" class="repos">
+    <div class="hero-card">
+      <ul>
+        <li>Repo Name: &nbsp;{{repo.name}}</li>
+        <li>Forks Count: &nbsp;{{repo.forks_count}}</li>
+        <li>Repo Link:&nbsp;<a href="{{repo.html_url}}"> Go to Github </a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
