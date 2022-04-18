@@ -1,0 +1,20 @@
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #232e51;
+    color: rgb(234, 211, 4);
+    font-size: 27px;
+    font-weight: 600;
+    justify-content: center;
+  }
+  li{
+      display: flex;
+      justify-content: center;
+      margin: 5%;
+      flex-direction: row;
+      text-decoration-line: underline;
+  }
